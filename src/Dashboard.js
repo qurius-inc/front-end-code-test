@@ -7,7 +7,8 @@ export default class Dashboard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      hoverStateIndex: null
+      hoverStateIndex: null,
+      currentDate: "2019-03-12T15:07:47-07:00"
     }
     this.handleInHover = this.handleInHover.bind(this);
     this.handleOutHover = this.handleOutHover.bind(this);
